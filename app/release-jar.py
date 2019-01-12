@@ -6,8 +6,8 @@ import os
 import glob
 
 # Define variables.
-GH_OWNER = 'pdimit05' # MadalinaPatrichi
-GH_REPO = 'comsm0010' # uob-cloud-computing
+GH_OWNER = 'MadalinaPatrichi'
+GH_REPO = 'uob-cloud-computing'
 GH_API = "https://api.github.com"
 GH_REPO_API = "{}/repos/{}/{}".format(GH_API, GH_OWNER, GH_REPO)
 GH_TAGS = "{}/releases/latest".format(GH_REPO_API)

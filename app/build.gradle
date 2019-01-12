@@ -18,8 +18,8 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootJar {
-    baseName = 'ReportIt' // uob-todo-app
-    version =  ''
+    baseName = 'uob-todo-app'
+    version =  '0.1.0'
 }
 
 repositories {
