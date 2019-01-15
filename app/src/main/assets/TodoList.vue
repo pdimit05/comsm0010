@@ -1,3 +1,4 @@
+// What shows in the web
 <template>
     <section class="todoapp">
         <div v-if="authenticated === false" style="padding: 10px 15px">
@@ -5,7 +6,7 @@
         </div>
         <div v-else>
             <header>
-                <h1>todos</h1>
+                <h1>ReportIt</h1> <!-- todos -->
             </header>
             <section class="user-bar" style="padding: 10px 15px">
                 <span>
@@ -33,6 +34,8 @@
     </section>
 </template>
 
+
+// The functions 
 <script type = "text/javascript" >
     import axios from 'axios'
 
